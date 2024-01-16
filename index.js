@@ -1,5 +1,8 @@
-const clickBtn = document.getElementById('click')
+function getComputerChoice() {
+    const choices = ['rock', 'paper', 'scissors']
+    const randomNumber = Math.floor(Math.random() * 3)
+    const choice = choices[randomNumber]
+    return choice
 
-clickBtn.addEventListener('click', () => {
-    alert('The shit was clicked my man')
-})
+}
+console.log('hi')
