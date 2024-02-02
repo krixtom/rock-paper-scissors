@@ -1,3 +1,7 @@
 body {
-    background-color: red;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
 }
